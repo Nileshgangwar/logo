@@ -1,0 +1,60 @@
+/* .typefrom{
+    border: 1px solid black;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.visitingcard{
+    position: relative;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+.box{
+    border: 2px solid black;
+    width: 342px;
+    padding: 10px;
+}
+.logo-img{
+    width: 145px;
+}
+.name{
+    float: right;
+}
+.name h3{
+    margin: 0;
+}
+.name p{
+    margin: 0;
+}
+.details{
+    margin-top: 48px;
+}
+.details h1{
+    margin: 0;
+    font-size: 20px;
+    color: #106bc3;
+}
+.details h1 span{
+    color: #cc2525;
+}
+.address p{
+    margin: 0;
+    font-size: 15px;
+}
+.back{
+    display: grid;
+    margin: auto;
+    width: 183px;
+}
+.panther{
+    width: 170px;
+    margin-top: 8px;
+}
+.back .logo-img{
+    width: 184px;
+    margin-top: -9px;
+    margin-bottom: 24px;
+}
